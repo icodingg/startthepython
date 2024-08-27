@@ -15,7 +15,7 @@ print ('O total a pagar é de R${:.2f}'.format(pago))
 
 
 
-#exercicio 3
+#exercicio 3             utilizando módulos 
 num = int(input('Digite um número'))
-raiz = math.sqrt(num)
-print('A raiz de {} é igual a {}'.format(num, math.ceil(raiz)))
+raiz = math.sqrt(num)                 # importando a biblioteca math (matematica) para operações
+print('A raiz de {} é igual a {:.2f}'.format(num, raiz))

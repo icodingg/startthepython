@@ -30,4 +30,20 @@ print(cid[0:5].upper() == 'SANTO')          # Colocando em letra maiuscula para 
 
 # exercicio 4        Procurando uma string dentro de outra
 nome = str(input('Qual é seu nome completo? ')).strip()
-print('Seu nome tem Oliveira? {}'.format('oliveira' in nome.lower()))
+print('Seu nome tem Oliveira? {}'.format('oliveira' in nome.lower()))      # in : operador
+
+
+
+# exercicio 5    primeira e ultima ocorrêbcua de uma string
+frase = str(input('Digite uma frase: ')).upper().strip()
+print(' A letra A aparece {} vezes na frase.'.format(frase.count('A')))        # Contando a letra 
+print('A primeira letra A apareceu na posição {}'.format(frase.find('A')+1))       # Buscando a primeira referencia
+print('A ultima letra A apareceu na posição {}'.format(frase.rfind('A')+1))       # Começa de traz para frente
+
+
+# exercicio 6        Primeiro e ultimo nome
+n = str(input('Digite seu nome completo: ')).strip()
+nome = n.split()           #fatiando a string com split
+print('Prazer em te conhecer!')
+print('Seu primeiro nome é {}'.format(nome[0]))
+print('Seu último nome é {}'.format(nome[len(nome)-1]))

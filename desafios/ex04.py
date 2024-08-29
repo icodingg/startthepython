@@ -43,7 +43,7 @@ n2 = str(input('Segundo funcionário: '))
 n3 = str(input('Terceiro funcinário: '))
 n4 = str(input('Quarto funcionário: '))
 lista = [n1, n2, n3, n4]
-shuffle(lista)
+shuffle(lista)            #função de ordem aleatória
 print('A ordem de funcionários será ')
 print(lista)
 

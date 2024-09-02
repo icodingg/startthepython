@@ -3,7 +3,7 @@ nome = str(input('Digite sem nome completo: ')).strip()          #Strip remove e
 print('Analisando seu nome...')
 print('Seu nome em maiúsculas é {}'.format(nome.upper()))       #upper deixa caracteres em maiúscula
 print('Seu nome em minusculas é {}'.format(nome.lower()))       #lower deixa em minúscula
-print('Seu nome tem ao todo{} letras'.format(len(nome) - nome.count(' ')))    #len conta o tamanho, enquanto ' - nome.count (' ') ' não deixa selecionar os espaços
+print('Seu nome tem ao todo {} letras'.format(len(nome) - nome.count(' ')))    #len conta o tamanho, enquanto ' - nome.count (' ') ' não deixa selecionar os espaços
 print('Seu primeiro nome tem {} letras'.format(nome.find(' ')))      # find encontra o primeiro espaço, assim contando as primeiras letras de um nome somente
 
 
@@ -46,4 +46,4 @@ n = str(input('Digite seu nome completo: ')).strip()
 nome = n.split()           #fatiando a string com split
 print('Prazer em te conhecer!')
 print('Seu primeiro nome é {}'.format(nome[0]))
-print('Seu último nome é {}'.format(nome[len(nome)-1]))
+print('Seu último nome é {}'.format(nome[len(nome)-1]))              # descobrindo quantos nomes tem com a função len

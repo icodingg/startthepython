@@ -6,7 +6,7 @@ print('-=-' * 20)
 print("Vou pensar em um número entre 0 e 5. Tente adivinhar...")
 print('-=-' * 20)   
 jogador = int(input('Em que número eu pensei? ')) # Jogador tenta adivinhar
-print('PROCESSANDO...')
+print('\033[1;31;43mPROCESSANDO...\033[m')
 sleep(3)
 if jogador == computador:
     print('PARABÉNS! pensei no número {} e conseguiu me vencer'.format(computador))
@@ -76,6 +76,7 @@ print('O menor valor digitado foi {}'.format(menor))
 print('O maior valor digitado foi {}'.format(maior))
 
 
+
 #  exercicio 7        Aumento de salário
 salario = float(input('Qual é o salário do funcionário? R$'))
 if salario <= 1250:               # salários menores que R$1250,00 ganham 15% de aumento
@@ -85,6 +86,7 @@ else:                             # salários maiores ganham 10
 print('Quem ganhava R${:.2f} passa a receber R${:.2f} agora.'.format(salario, novo))
 
 
+
 #   exercicio 8       Analisando triângulo
 print('-'*20)
 print('Analisador de Triângulos')
@@ -92,7 +94,7 @@ print('-'*20)
 r1 = float(input('Primeiro segmento: '))
 r2 = float(input('Segundo segmento: '))
 r3 = float(input('Terceiro segmento: '))
-if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
+if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:                       # calculando lados para resultado de triângulo
     print('Os segmentos acima PODEM FORMAR triângulo!')
 else:
     print('Os segmentos acima NÃO PODEM FORMAR triângulo')

@@ -6,7 +6,7 @@ print('-=-' * 20)
 print("Vou pensar em um número entre 0 e 5. Tente adivinhar...")
 print('-=-' * 20)   
 jogador = int(input('Em que número eu pensei? ')) # Jogador tenta adivinhar
-print('\033[1;31;43mPROCESSANDO...\033[m')
+print('\033[1;31;43mPROCESSANDO...\033[m')    # testando cores em py
 sleep(3)
 if jogador == computador:
     print('PARABÉNS! pensei no número {} e conseguiu me vencer'.format(computador))

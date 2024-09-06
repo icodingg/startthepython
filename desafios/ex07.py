@@ -27,6 +27,7 @@ else:
     print('Empréstimo NEGADO!')
 
 
+
 # exercicio  3      Conversor de Bases Numéricas
 num = int(input('Digite um número inteiro: '))
 print('''Escolha uma das bases da conversão:
@@ -42,3 +43,37 @@ elif opção == 3:
          print ('{} convertido para HEXADECIMAL é igual a {}'.format(num, hex(num)[2:]))
 else:
     print('Opção inválida. Escolha entre as opções acima.')
+
+
+
+
+
+# exercicio 4     Comparando números
+n1 = int(input('Primeiro número: '))
+n2 = int(input('Segundo número: '))
+if n1 > n2:
+    print('O PRIMEIRO valor é maior')
+elif n2 > n1:
+    print('O SEGUNDO valor é maior')
+else:
+    print('Os dois valores são IGUAIS')
+
+
+
+
+# exercicio 5      Alistamento militar
+from datetime import date
+atual = date.today().year
+nasc = int(input('Ano de nascimento: '))
+idade = atual - nasc
+print('Quem nasceu em {} tem {} anos em {}'.format(nasc, idade, atual))
+if idade == 18:
+    print('Você tem que se alistar IMEDIATAMENTE!')
+elif idade < 18:
+    saldo = 18 - idade
+    print('Você ainda não tem 18 anos. Faltam {} anos para o alistamento'.format(saldo))
+elif idade > 18:    
+    saldo = idade - 18
+    print('Você já deveria ter se alistado há {} anos.'.format(saldo))
+
+    

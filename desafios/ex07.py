@@ -62,8 +62,8 @@ else:
 
 
 # exercicio 5      Alistamento militar
-from datetime import date
-atual = date.today().year
+from datetime import date           #Importando data 
+atual = date.today().year           #selecionando ano
 nasc = int(input('Ano de nascimento: '))
 idade = atual - nasc
 print('Quem nasceu em {} tem {} anos em {}'.format(nasc, idade, atual))
@@ -91,3 +91,38 @@ elif media < 5:
 
 elif media >= 7:
     print('O aluno está APROVADO')
+
+
+
+# exercicio 7       Classificando Atletas
+atual = date.today().year
+nascimento = int(input('Ano de Nascimento: '))
+idade = atual - nascimento
+print('O atleta tem {} anos.'.format(idade))
+if idade <= 9:
+    print('Classificação: MIRIM.')
+elif idade <= 14:
+    print('Classificação: INFANTIL.')
+elif idade <= 19:
+    print('Classificação: JUNIOR.')
+elif idade <= 25:
+    print('Classificação: SÊNIOR.')
+else:
+    print('Classificação: MASTER.')
+
+
+
+#exercicio 8       Analisando Triângulos 2.0
+r1 = float(input('Primeiro segmento: '))
+r2 = float(input('Segundo segmento: '))
+r3 = float(input('Terceiro segmento: '))
+if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:                       # calculando lados para resultado de triângulo
+    print('Os segmentos acima PODEM FORMAR triângulo!')
+    if r1 == r2 == r3:
+        print('EQUILÂTERO!')
+    elif r1 != r2 != r3 != r1:
+        print('ESCALENO!')
+    else: 
+        print('ISÓSCELES') 
+else:
+    print('Os segmentos acima NÃO PODEM FORMAR triângulo')

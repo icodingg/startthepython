@@ -1,5 +1,5 @@
 from random import choice, shuffle
-from math import trunc, hypot, sin, radians, cos, tan    # importando especificamento métodos, podendo também chamar o comando math completo
+from math import trunc, hypot, sin, radians, cos, tan    # importando especificamente métodos, podendo também chamar o comando math completo
 # exercicio 1         Quebrando um numero real
 num = float(input('Digite um valor: '))
 print ('O valor digitado foi {} e a sua porção inteira é {}'.format(num, trunc(num)))   #chamando a função trunc para quebrar o número informado

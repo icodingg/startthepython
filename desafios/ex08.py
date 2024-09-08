@@ -15,6 +15,8 @@ elif imc >= 40:
     print('Você está em OBESIDADE MÓRBIDA, cuidado!')
 
 
+
+
 #exercicio 2    Gerenciador de Pagamentos
 print('{:=^40}'.format(' Toppo Griff '))
 preço = float(input('Preço das compras: R$'))
@@ -44,6 +46,9 @@ else:
 print('Sua compra de R${:.2f} vai custar R${:.2f} no final.'.format(preço, total))
 
 
+
+
+
 #exercicio 3      GAME: Pedra papel e Tesoura
 #        computador escolhendo uma das 3 opções
 from random import randint
@@ -56,11 +61,13 @@ print('''Suas opções:
 [ 1 ] PAPEL
 [ 2 ] TESOURA''')
 jogador = int(input('Qual é a sua jogada? '))
+#       importando timer sleep  para simular uma partida de JOKENPO
 print('JO')
 sleep(1)
 print('KEN')
 sleep(1)
 print('PO')
+sleep(1)
 #        imprime o que os dois jogaram
 print('-=' * 12)
 print('Computador jogou {}'.format(itens[computador]))

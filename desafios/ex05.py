@@ -1,5 +1,5 @@
 #exercicio 1       Manipulating Text
-nome = str(input('Digite sem nome completo: ')).strip()          #Strip remove espaços em branco
+nome = str(input('Digite seu nome completo: ')).strip()          #Strip remove espaços em branco
 print('Analisando seu nome...')
 print('Seu nome em maiúsculas é {}'.format(nome.upper()))       #upper deixa caracteres em maiúscula
 print('Seu nome em minusculas é {}'.format(nome.lower()))       #lower deixa em minúscula
@@ -34,7 +34,7 @@ print('Seu nome tem Oliveira? {}'.format('oliveira' in nome.lower()))      # in 
 
 
 
-# exercicio 5    primeira e ultima ocorrêbcua de uma string
+# exercicio 5    primeira e ultima ocorrência de uma string
 frase = str(input('Digite uma frase: ')).upper().strip()
 print(' A letra A aparece {} vezes na frase.'.format(frase.count('A')))        # Contando a letra 
 print('A primeira letra A apareceu na posição {}'.format(frase.find('A')+1))       # Buscando a primeira referencia

@@ -13,6 +13,7 @@ elif 30 <= imc < 40:
     print('Você está em OBESIDADE')
 elif imc >= 40:
     print('Você está em OBESIDADE MÓRBIDA, cuidado!')
+print('\n\n')
 
 
 
@@ -44,6 +45,7 @@ else:
     total = preço
     print('OPÇÃO INVALIDA. TENTE NOVAMENTE!')
 print('Sua compra de R${:.2f} vai custar R${:.2f} no final.'.format(preço, total))
+print('\n\n')
 
 
 

@@ -10,7 +10,8 @@ print('Tabuada de {}:'.format(n))
 for i in range(1, 11):  # Vai de 1 até 10
     resultado = n * i
     print('{} x {} = {}'.format(n, i, resultado))
-    
+print('\n\n')
+   
 
 
 
@@ -20,6 +21,7 @@ dolar = real / 5.20       #Buscando cotação aproximada da época, divisão de 
 
 print('Em conta tenho R$', real)
 print('Com R${} o senhor consegue comprar {:.2f} doláres'.format(real,dolar))        #dentro de {dólar}  se coloca :.2f para cortar os numeros pós virgula
+print('\n\n')
 
 
 
@@ -36,6 +38,7 @@ litros = area / tinta
 litros = math.ceil(litros) #fazendo o import da função math
 
 print('Sua parede tem {:.2f}m², então será necessario {} litros para pintar '.format(area,litros))
+print('\n\n')
 
 
 
@@ -48,6 +51,7 @@ valor_desconto = valor * (desconto / 100)    #calcula o valor do desconto
 valor_atual = valor - valor_desconto     # calcular o valor com desconto
 
 print ('Valor do produto:{} \n Desconto aplicado:{} \n Valor com desconto:{}'.format(valor,valor_desconto,valor_atual))
+print('\n\n')
 
 
 

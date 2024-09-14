@@ -10,6 +10,7 @@ elif nome in 'Ana Cláudia Jessica Juliana':
 else:
     print('Seu nome é normal.')
 print('Tenha um bom dia, {}'.format(nome))
+print('\n\n')
 
 
 
@@ -25,6 +26,7 @@ if prestacao <= minimo:
     print('Empréstimo pode ser CONCEDIDO')
 else:
     print('Empréstimo NEGADO!')
+print('\n\n')
 
 
 
@@ -43,6 +45,7 @@ elif opção == 3:
          print ('{} convertido para HEXADECIMAL é igual a {}'.format(num, hex(num)[2:]))
 else:
     print('Opção inválida. Escolha entre as opções acima.')
+print('\n\n')
 
 
 
@@ -57,6 +60,7 @@ elif n2 > n1:
     print('O SEGUNDO valor é maior')
 else:
     print('Os dois valores são IGUAIS')
+print('\n\n')
 
 
 
@@ -75,6 +79,7 @@ elif idade < 18:
 elif idade > 18:    
     saldo = idade - 18
     print('Você já deveria ter se alistado há {} anos.'.format(saldo))
+print('\n\n')
 
     
 
@@ -91,6 +96,7 @@ elif media < 5:
 
 elif media >= 7:
     print('O aluno está APROVADO')
+print('\n\n')
 
 
 
@@ -109,6 +115,7 @@ elif idade <= 25:
     print('Classificação: SÊNIOR.')
 else:
     print('Classificação: MASTER.')
+print('\n\n')
 
 
 

@@ -4,6 +4,7 @@ import math
 c = float(input('Informe a temperatura em °C: '))
 f = 9 * c /5 + 32        #    Calculo para conversão
 print('A temperatura de {}°C corresponde a {}°F'.format(c, f))
+print('\n\n')
 
 
 
@@ -12,6 +13,7 @@ dias = int(input('Quantos dias alugados?'))
 km = float(input('Quantos Km rodados?'))
 pago = (dias * 60) + (km * 0.15)          # Neste caso a diaria do aluguel seria de R$ 60,00 e a cada km percorrido seria R$ 0,15
 print ('O total a pagar é de R${:.2f}'.format(pago))
+print('\n\n')
 
 
 

@@ -12,7 +12,7 @@ if jogador == computador:
     print('PARABÉNS! pensei no número {} e conseguiu me vencer'.format(computador))
 else:
     print('GANHEI! Eu pensei no número {} e não no {}'.format(computador, jogador))
-    
+print('\n\n') 
     
 
 
@@ -23,6 +23,7 @@ if velocidade > 80:           # condicional para multar caso exceda a velocidade
     multa = (velocidade-80) * 7             #   criando o valor da multa a partir da velocidade excedente
     print('Você deve pagar uma multa de R${:.2f}'.format(multa))
 print('Tenha um bom dia! Dirija com segurança')
+print('\n\n')
 
 
 
@@ -33,6 +34,7 @@ if numero % 2 == 0:           #   O resto da divisão = 0 sempre será PAR
     print('O número {} é PAR'.format(numero))
 else:
     print('O número {} é ÍMPAR'.format(numero))
+print('\n\n')
 
 
 
@@ -44,6 +46,7 @@ if distancia <= 200:            # Acrescentando uma diferença de preço a parti
 else:
     preco = distancia * 0.45
 print('E o preço da sua passagem será de R${:.2f}'.format(preco))
+print('\n\n')
 
 
 
@@ -53,6 +56,7 @@ if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:        # expressão para r
     print('O ano {} é BISSEXTO'.format(ano))
 else:
     print('O ano {} NÃO é BISSEXTO'.format(ano))
+print('\n\n')
 
 
 
@@ -74,6 +78,7 @@ if n3 > n1 and n3 > n2:
     maior = n3
 print('O menor valor digitado foi {}'.format(menor))
 print('O maior valor digitado foi {}'.format(maior))
+print('\n\n')
 
 
 
@@ -84,6 +89,7 @@ if salario <= 1250:               # salários menores que R$1250,00 ganham 15% d
 else:                             # salários maiores ganham 10
     novo = salario + (salario * 10 / 100)
 print('Quem ganhava R${:.2f} passa a receber R${:.2f} agora.'.format(salario, novo))
+print('\n\n')
 
 
 
